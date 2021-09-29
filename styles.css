@@ -24,6 +24,9 @@ li {
   line-height: 1;
   list-style: none;
 }
+li.first-letter {
+  text-transform: capitalize;
+}
 
 .weather-app {
   border: 1px solid #dadde1;
@@ -51,7 +54,7 @@ li {
   font-weight: 400;
   line-height: 1;
 }
-weather-temperature.units {
+.weather-temperature.units {
   position: relative;
   font-size: 16px;
 }
